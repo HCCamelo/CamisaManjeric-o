@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camisa Saudades Eternas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .carousel-item {
+            text-align: center;
+        }
+        .carousel-item img {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: auto;
+        }
+        .image-container {
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div id="shirtCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="image-container">
+                        <img src="Imagem1.jpg" alt="Imagem 1">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="image-container">
+                        <img src="Imagem2.jpg" alt="Imagem 2">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="image-container">
+                        <img src="Imagem3.jpg" alt="Imagem 3">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#shirtCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#shirtCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        
+        <div class="mt-3 text-center">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary">
+                    <input type="radio" name="size" id="sizeP" autocomplete="off"> P
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="size" id="sizeM" autocomplete="off"> M
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="size" id="sizeG" autocomplete="off"> G
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="size" id="sizeGG" autocomplete="off"> GG
+                </label>
+            </div>
+        </div>
+        
+        <div class="mt-3 text-center">
+            <a href="https://produto.mercadolivre.com.br/MLB-3610109701-mega-combo-8-mudas-de-temperos-natural-_JM?matt_tool=47780295&matt_word=&matt_source=google&matt_campaign_id=14302215540&matt_ad_group_id=157843787695&matt_match_type=&matt_network=g&matt_device=c&matt_creative=686778909996&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=253055897&matt_product_id=MLB3610109701&matt_product_partition_id=1961862651721&matt_target_id=pla-1961862651721&cq_src=google_ads&cq_cmp=14302215540&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gclid=CjwKCAjwg8qzBhAoEiwAWagLrJ-a3c8jaKMB25iHg_U9CKo511lt_48mHi_5o1wZjriuKCVWcJrwmBoCDdEQAvD_BwE" class="btn btn-primary">Comprar</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
